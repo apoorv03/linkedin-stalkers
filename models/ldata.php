@@ -1,6 +1,6 @@
 <?php
 
-class Ldata extends Model{
+class Ldata extends CI_Model{
 
 function _construct()
 {
