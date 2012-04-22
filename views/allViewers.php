@@ -5,7 +5,7 @@
 	if(!is_null($firm))
 		echo "Firm - " . $firm . "<br/>";
 	if(!is_null($photo))
-		echo "<img src = '" . $photo . "' />" . "<br/>";
+		echo "<img src = '" . $photo . "' style=\"width:12%;\" />" . "<br/>";
 
 	echo "at " . $ts. "<br/>";
 	?>
