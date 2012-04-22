@@ -2,9 +2,9 @@
 
 class Ldata extends Model{
 
-function Ldata()
+function _construct()
 {
-	parent::Model();
+	parent::_construct();
 }
 
 function load_db()
