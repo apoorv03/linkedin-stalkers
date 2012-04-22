@@ -1,8 +1,8 @@
 <?php
 
-class Viewers extends Controller {
+class Stalkers extends Controller {
 
-	function Viewers()
+	function Stalkers()
 	{
 		parent::Controller();
 	}
@@ -31,17 +31,5 @@ function loadPage()
 	{
 		$this->load->view('allViewers', $data);
 	}
-}
-
-function newNote()
-{
-	$content = $this->input->post("content");
-
-	$this->load->model('mnotes');
-	$this->mnotes->load_db();
-
-	$this->mnotes->submit($content);
-
-	$this->loadPage();
 }
 }
