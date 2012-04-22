@@ -4,7 +4,7 @@ class Stalkers extends CI_Controller {
 
 	function Stalkers()
 	{
-		parent::Controller();
+		parent::CI_Controller();
 	}
 
 function index()
