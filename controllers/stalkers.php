@@ -1,6 +1,6 @@
 <?php
 
-class Stalkers extends Controller {
+class Stalkers extends CI_Controller {
 
 	function Stalkers()
 	{
